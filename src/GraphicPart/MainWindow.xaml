@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DomainShell"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="#FFB7D9E6">
     <Grid>
-
+        <Menu Height="20" VerticalAlignment="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Новый проект"></MenuItem>
+                <MenuItem Header="Открыть проект"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Настройки"></MenuItem>
+            <MenuItem Header="Помощь"></MenuItem>
+        </Menu>
     </Grid>
 </Window>
